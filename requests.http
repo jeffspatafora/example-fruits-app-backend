@@ -1,2 +1,13 @@
 ### fruits index
-GET http://localhost:3000/fruits
+GET http://localhost:3000/fruits.json
+
+### fruits create
+POST http://localhost:3000/fruits.json
+Content-Type: application/json
+
+{
+"kind": "berry",
+"name": "blueberry",
+"quantity": 50,
+"image": "https://www.freshpoint.com/wp-content/uploads/commodity-blueberry.jpg"
+}
